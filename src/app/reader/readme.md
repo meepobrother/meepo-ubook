@@ -1,3 +1,4 @@
+```html
 <main>
   <uhead></uhead>
   <config *ngIf="false"></config>
@@ -5,3 +6,4 @@
   <content></content>
   <ufooter></ufooter>
 </main>
+```

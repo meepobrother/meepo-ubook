@@ -1,5 +1,4 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {Router} from "@angular/router";
 
 @Component({
   selector: 'header2',
@@ -8,9 +7,7 @@ import {Router} from "@angular/router";
 })
 export class Header2Component implements OnInit {
   @Input() title: string = '标题';
-  constructor(
-      public router: Router
-  ) { }
+  constructor() { }
 
   ngOnInit() {
   }
@@ -19,8 +16,6 @@ export class Header2Component implements OnInit {
     history.go(-1)
   }
 
-  goHome(){
-    this.router.navigate(['index'])
-  }
+  goHome(){}
 
 }
