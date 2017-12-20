@@ -1,0 +1,30 @@
+.list_li li {
+  height: 43px;
+  line-height: 43px;
+  padding: 0 14px;
+  position: relative;
+  border-bottom: 1px solid #e5e5e5;
+  &.act {
+    background: #f6f6f6;
+  }
+  a {
+    display: block;
+    display: block;
+    white-space: nowrap;
+    word-wrap: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.freebg {
+  background: #52cca3;
+  font-size: 10px;
+  color: #fff;
+  width: 30px;
+  height: 16px;
+  line-height: 16px;
+  float: right;
+  text-align: center;
+  margin-top: 15px;
+}

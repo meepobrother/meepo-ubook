@@ -1,0 +1,27 @@
+<div class="boy_box girl-box">
+  <div class="com-item-list" *ngIf="top">
+    <div class="horizontal-box">
+      <div class="com-item-thumb">
+        <img [src]="top?.image" width="84" height="120">
+      </div>
+      <div class="com-item-list-details">
+        <span>{{top?.title}}</span>
+        <div class="com-item-list-desc">
+          <p class="tit_1">
+            <span>作者：{{top?.author}}</span></p>
+          <p class="tit_2">{{top?.desc}}</p>
+        </div>
+      </div>
+    </div>
+    <a href="javascript:;" (click)="_onClick(item)"></a>
+  </div>
+  <ul class="list_ul list_a">
+    <li *ngFor="let item of items">
+      <p>
+        <span>[ {{item.class.title}} ]</span>&nbsp;{{item.title}}
+        <b class="z_name">{{item.author}}</b></p>
+      <p class="nr_p">{{item.desc}}</p>
+      <a href="javascript:;" (click)="_onClick(item)"></a>
+    </li>
+  </ul>
+</div>

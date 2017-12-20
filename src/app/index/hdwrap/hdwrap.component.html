@@ -1,0 +1,14 @@
+<div class="top" style="visibility: visible;background-color: #fff;padding-bottom: 3px;">
+  <ul class="tab">
+    <li [class.act]="item.active" *ngFor="let item of items">
+      <a href="javascript:;" (click)="_onItem(item)">
+        <span>{{item.title}}</span>
+      </a>
+    </li>
+  </ul>
+  <ul class="link link2">
+    <li *ngFor="let filter of filters">
+      <a href="javascript:;" (click)="_onFilter(filter)">{{filter.title}}</a>
+    </li>
+  </ul>
+</div>

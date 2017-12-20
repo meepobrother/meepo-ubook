@@ -1,0 +1,11 @@
+<div class="tit-2" *ngIf="title">
+  {{title}}
+  <em class="hot" *ngIf="desc">{{desc}}</em>
+  <span id="downtime" *ngIf="hasTime">
+    <em>02</em>:
+    <em>05</em>:
+    <em>02</em>
+  </span>
+  <a href="javascript:;" (click)="_onMore()" *ngIf="items.length>0">&nbsp;&nbsp;更多</a>
+  <a href="javascript:;" class="nobg" *ngFor="let item of items" (click)="_onClick(item)">{{item.title}}</a>
+</div>

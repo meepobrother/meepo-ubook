@@ -1,0 +1,78 @@
+.h_bg {
+  background: #0c8bca;
+  width: 100%;
+  height: 47px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.list_a1 {
+  position: absolute;
+  display: block;
+  background: url(../images/reader_icon.png) no-repeat 14px 10px;
+  -webkit-background-size: 36px 727px;
+  left: 0;
+  top: 0;
+  width: 36px;
+  height: 47px;
+  padding: 0 5px 0 14px;
+}
+
+.list_a2 {
+  display: block;
+  background: url(../images/reader_icon.png) no-repeat 10px -28px;
+  -webkit-background-size: 36px 727px;
+  left: 0;
+  top: 0;
+  width: 36px;
+  height: 47px;
+  padding: 0 10px;
+  float: left;
+}
+
+
+.list_a3 {
+  display: block;
+  background: url(../images/reader_icon.png) no-repeat 10px -67px;
+  -webkit-background-size: 36px 727px;
+  left: 0;
+  top: 0;
+  width: 36px;
+  height: 47px;
+  float: left;
+  padding: 0 10px;
+}
+
+.list_a4 {
+  display: block;
+  background: url(../images/reader_icon.png) no-repeat 10px -625px;
+  -webkit-background-size: 36px 727px;
+  left: 0;
+  top: 0;
+  width: 36px;
+  height: 47px;
+  float: left;
+  padding: 0 10px;
+}
+
+
+
+.read-head {
+  position: absolute;
+  right: 5px;
+  a {
+    position: relative;
+    &.act b {
+      background: url(../images/tab_bg.png) no-repeat center 0;
+      display: block;
+      position: absolute;
+      bottom: 0;
+      -webkit-background-size: 8px 5px;
+      width: 8px;
+      height: 5px;
+      left: 25px;
+    }
+  }
+}
